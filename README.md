@@ -36,7 +36,7 @@ Rocket.q é uma aplicação para gerenciar perguntas anônimas de usuários dire
 - [x] Cadastro de perguntas<br>
 - [x] Marcar pergunta como lida<br>
 - [x] Excluir pergunta<br>
-- [x] Verificacão de exclusão e edição com senha<br>
+- [x] Verificacão para exclusão e edição de perguntas com senha<br>
 - [x] Banco de dados<br>
 
 # Techs:
