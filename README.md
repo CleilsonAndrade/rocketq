@@ -6,10 +6,6 @@
 
 ---
 
-<h3 align="center">
-  <a href="https://cleilsonandrade.github.io/rocketq">Acessar demonstração</a>
-</h3>
-
 ## Índice
 
 - [Descrição](#descrição)
@@ -45,6 +41,7 @@ Rocket.q é uma aplicação para gerenciar perguntas anônimas de usuários dire
 - **CSS**
 - **JavaScript**
 - **Node.js**
+- **MySQL**
 
 ## Libs:
 
@@ -56,7 +53,7 @@ Rocket.q é uma aplicação para gerenciar perguntas anônimas de usuários dire
 # Design:
 
 - O modelo final para desktop e mobile está disponível na pasta `./design`
-- Imagens disponíveis na pasta `./assets`<br>
+- Imagens disponíveis na pasta `./public/images`<br>
 
 ## Cores:
 
