@@ -17,13 +17,10 @@ module.exports = {
       const roomsExistIds = await db.all(`SELECT id FROM rooms`)
       isRoom = roomsExistIds.some(roomExistId => roomExistId === roomId)
       if (!isRoom) {
-        await db.run(`INSERT INTO rooms (
-        id,
-        pass
-      ) VALUES (
-        ${parseInt(roomId)},
-        ${pass}
-      )`)
+        const teste = await db.run(
+          `INSERT INTO rooms (id, pass) VALUES (?, ?)`,
+          parseInt(roomId),
+          pass);
       }
     }
 
